@@ -83,7 +83,10 @@ python -m scripts.ingest_samples --reset
 # 4. Verify RBAC + masking (should print PASS)
 python -m scripts.eval_retrieval
 
-# 5. Run the app
+# 5. See the security guarantees live in the terminal (no API key needed)
+python -m scripts.demo
+
+# 6. Run the full app
 streamlit run app.py
 ```
 
