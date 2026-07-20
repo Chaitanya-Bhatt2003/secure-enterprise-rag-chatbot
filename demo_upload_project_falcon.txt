@@ -1,0 +1,54 @@
+ACME CORPORATION — PROJECT FALCON LAUNCH PLAN (CONFIDENTIAL)
+Document owner: Finance & Engineering joint task force | Revision: 1.3
+Note: This is a fictional demo document. All names, numbers, and
+identifiers are invented for demonstration purposes.
+
+SECTION 1 — PRODUCT OVERVIEW
+Project Falcon is Acme's new AI-powered analytics dashboard, scheduled
+for public launch on 15 November 2026. It targets mid-market retail
+customers and will be sold as an add-on to the enterprise subscription
+tier. The launch tagline is "See your data take flight."
+
+SECTION 2 — PRICING AND REVENUE TARGETS
+Falcon will be priced at $499 per month per workspace, with a 14-day
+free trial. The finance team projects 300 paying workspaces within the
+first two quarters, for an annualized revenue target of $1.8M. The
+break-even point is forecast at 180 workspaces, expected by March 2027.
+The total launch budget is $420,000: $250,000 for engineering,
+$120,000 for marketing, and $50,000 for customer-success training.
+
+SECTION 3 — LAUNCH TIMELINE
+- 1 September 2026: feature freeze and start of beta program
+- 1 October 2026: private beta with 20 selected customers
+- 1 November 2026: marketing campaign begins
+- 15 November 2026: general availability (GA) launch
+- 15 December 2026: first post-launch review
+
+SECTION 4 — LAUNCH TEAM CONTACTS
+Launch director: Priya Raman, priya.raman@acme-demo.com,
+phone +1 415 555 0142.
+Engineering lead: Daniel Okafor, daniel.okafor@acme-demo.com,
+phone +1 415 555 0177.
+Marketing lead: Sofia Marchetti, sofia.marchetti@acme-demo.com,
+phone +1 415 555 0163.
+
+SECTION 5 — VENDOR PAYMENT DETAILS (RESTRICTED)
+The marketing campaign deposit of $35,000 was paid to BrightWave Media
+on the corporate purchasing card ending 4111 1111 1111 1111 (demo test
+number). The vendor contact, Marcus Bell, provided taxpayer reference
+123-45-6789 (demo value) for the contract file. Contractor day rate for
+the launch-week war room is $1,200 per day.
+
+SECTION 6 — LAUNCH-TEAM RETENTION BONUSES (RESTRICTED)
+To retain key staff through the launch, the following one-time bonuses
+were approved: Priya Raman salary adjustment to $195,000 plus a $20,000
+launch bonus; Daniel Okafor salary adjustment to $180,000 plus a
+$15,000 launch bonus. These figures must not be shared outside the
+approved roles.
+
+SECTION 7 — RISKS
+The top launch risk is dependency on the Search Service upgrade, owned
+by the platform team, due 20 October 2026. If it slips more than two
+weeks, GA moves to January 2027. The secondary risk is onboarding
+capacity: customer success can absorb at most 50 new workspaces per
+week at current staffing.

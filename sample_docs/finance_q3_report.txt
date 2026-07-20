@@ -1,0 +1,37 @@
+ACME CORPORATION — Q3 FY2026 FINANCIAL REPORT (INTERNAL)
+Prepared by: Finance Department | Classification: Confidential
+
+EXECUTIVE SUMMARY
+Q3 revenue reached $12.4M, up 18% year-over-year, driven primarily by the
+enterprise subscription tier. Gross margin improved to 71% from 68% in Q2.
+Operating expenses grew 9%, mainly from cloud infrastructure scaling and
+two executive hires. Net income for the quarter was $1.9M.
+
+REVENUE BREAKDOWN
+- Enterprise subscriptions: $7.1M (57% of revenue)
+- SMB subscriptions: $3.2M (26%)
+- Professional services: $1.4M (11%)
+- Marketplace and other: $700,000 (6%)
+
+The top three enterprise accounts (Northwind Logistics, Contoso Health,
+Fabrikam Manufacturing) together represent $2.8M of quarterly revenue.
+Contract renewal for Northwind ($1.1M annually) is due in Q1 FY2027 and
+is rated at-risk pending the SLA remediation plan.
+
+EXPENSES
+- Payroll and benefits: $5.6M
+- Cloud infrastructure: $1.8M (AWS reserved instance renegotiation saved
+  $210,000 this quarter)
+- Sales and marketing: $1.3M
+- Facilities and other: $600,000
+
+BUDGET FORECAST — Q4 FY2026
+Q4 revenue is forecast at $13.5M ± 5%. The engineering department budget
+increases by $400,000 to fund the vector-search infrastructure project.
+A hiring freeze applies to all non-engineering, non-quota-carrying roles
+until January 2027.
+
+RISKS
+1. Foreign exchange exposure on EUR-denominated contracts (~$1.2M).
+2. Concentration risk: top 5 customers are 31% of revenue.
+3. Pending SOC 2 Type II audit; remediation budget of $150,000 reserved.
