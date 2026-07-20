@@ -114,18 +114,31 @@ def mask_text(text: str, role: str) -> Tuple[str, List[str]]:
     if not spans:
         return text, []
 
-    # Replace right-to-left so earlier offsets stay valid; skip spans that
-    # overlap one we already replaced.
-    spans.sort(key=lambda x: (x[1], -(x[2])))
+    # Merge overlapping spans into one redaction. Detectors can flag
+    # overlapping regions — e.g. the phone-number pattern matches the first
+    # digits of a credit card. If we redacted the shorter span alone, the
+    # rest of the card (its trailing digits) would survive. Merging the union
+    # guarantees no PII tail is left behind; the label comes from the longest
+    # contributing span (the full credit card, not the partial phone match).
+    spans.sort(key=lambda x: (x[1], x[2]))
+    merged: List[List] = []  # [start, end, label, label_len]
+    for etype, start, end in spans:
+        length = end - start
+        if merged and start <= merged[-1][1]:
+            group = merged[-1]
+            group[1] = max(group[1], end)
+            if length > group[3]:
+                group[2], group[3] = etype, length
+        else:
+            merged.append([start, end, etype, length])
+
+    # Replace right-to-left so earlier offsets stay valid (merged spans are
+    # sorted ascending and non-overlapping).
     masked_types = set()
     result = text
-    last_start = len(text) + 1
-    for etype, start, end in reversed(spans):
-        if end > last_start:  # overlaps a span already replaced
-            continue
+    for start, end, etype, _ in reversed(merged):
         result = result[:start] + f"[REDACTED:{etype}]" + result[end:]
         masked_types.add(etype)
-        last_start = start
     return result, sorted(masked_types)
 
 
